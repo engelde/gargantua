@@ -1,0 +1,31 @@
+{
+  "name": "gargantua",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An Interstellar-grade, scientifically grounded black hole observatory built with Vue 3, TypeScript, Three.js and a real gravitational-lensing GLSL renderer.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview --port 4173",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource/ibm-plex-mono": "^5.2.7",
+    "@fontsource/ibm-plex-sans": "^5.2.8",
+    "@fontsource/space-grotesk": "^5.2.10",
+    "@vueuse/core": "^14.3.0",
+    "three": "^0.185.1",
+    "vue": "^3.5.39"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.2",
+    "@types/node": "^26.1.1",
+    "@types/three": "^0.185.1",
+    "@vitejs/plugin-vue": "^6.0.7",
+    "tailwindcss": "^4.3.2",
+    "typescript": "^5.9.3",
+    "vite": "^8.1.4",
+    "vue-tsc": "^3.3.7"
+  }
+}

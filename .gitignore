@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+.vercel
+*.log
+logs
+coverage
+.env
+.env.*
+!.env.example
+
+# local e2e / screenshot artifacts
+/gargantua-*.jpeg
+/v2-*.jpeg
+/fix-*.jpeg
+/.playwright-mcp
